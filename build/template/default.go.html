@@ -1,0 +1,48 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Web-Engenharia Email</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+
+
+<div style="width: 100%;
+height: 100%;">
+    <div style="background-color: #001C2F;
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+    color: white;
+    padding: 1em;">
+        <a href="https://web-engenharia.dev/" style="color: inherit;
+        /* blue colors for links too */
+        text-decoration: inherit;">WEB-ENGENHARIA</a>
+    </div>
+
+    <div style="text-align: justify;
+    font-weight: 700;
+    font-size: 12px;
+    color: #001C2F;">
+        <p style="text-align: center">Essa é uma mensagem automatica enviada pelo sistema.</p>
+
+        <p style="color:black;margin:50px">
+            {{ .Message }}
+        </p>
+    </div>
+
+    <div style=" padding: 1em;
+    background-color: #001C2F;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    
+    color: white;">
+        Todos os direitos reservados {{ .Ano }}
+    </div>
+</div>
+
+</html>
